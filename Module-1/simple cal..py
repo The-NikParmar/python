@@ -1,0 +1,7 @@
+a= int(input("enter your frist no"))
+b= int(input("enter your second no"))
+print("the sum of two no",a+b)
+print("the sub of two no",a-b)
+print("the Mul of two no",a*b)
+print("the div of two no",a/b)
+print("the modu of two no",a%b)
