@@ -4,6 +4,6 @@ st=("python is easy to learn ")
 count=[]
 
 count =st.split()
-print(cout)
+print(count)
 
 
