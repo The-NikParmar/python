@@ -15,4 +15,10 @@ for i in res1:
 dic=dict(res) # Converrt list to Dictionary 
 print("Merge Two Dictionary ",dic)# print two Merge Dictionary 
 
+# Second method 
 
+'''
+for i in dic2:
+     dic1.update(i)
+print(dic1)
+'''

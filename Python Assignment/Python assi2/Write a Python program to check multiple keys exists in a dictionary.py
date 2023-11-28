@@ -1,9 +1,9 @@
-# Write a Python program to check multiple keys exists in a dictionary.
-
-dic={"Name":"nik","Age":21,"Address":"xyz","Marks":89}
+# Define a dictionary
+dic = {"Name": "nik", "Age": 21, "Address": "xyz", "Marks": 89}
 print(dic)
-    
-if len(dic)>1:
-    print("yes Multiple Key exists")
+
+# Check if the dictionary has more than one key
+if len(dic) > 1:
+    print("Yes, multiple keys exist")
 else:
-    print("No only one key exists")
+    print("No, only one key exists")
