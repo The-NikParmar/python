@@ -1,3 +1,4 @@
+# how will you create a dictionary using tuples in python?
 
 # Create a tuple
 tup1 = (('g', 1), ('e', 2), ('e', 3), ('k', 4), ('s', 5))
