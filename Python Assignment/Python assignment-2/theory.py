@@ -80,5 +80,12 @@ Tuples are created using parentheses and elements are separated by commas.
     Modification   Elements can be add,removed,or replaced  Elements cannot be added, removed, or replaced
 
 '''
+#How Many Basic Types Of Functions Are Available In Python?
+'''
 
+There are two types of functions available in python. These are:
+
+Built-in Functions or Pre-defined
+User-defined Functions
+'''
 
