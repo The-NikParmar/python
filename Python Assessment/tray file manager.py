@@ -1,9 +1,8 @@
 def Display():
-        print("\n\t\tFruit Market Manager")
+        print("\t\tFruit Market Manager")
         print("\n\t\t1) Add Fruite Stoke")
         print("\t\t2) view Fruite Stoke")
         print("\t\t3) Updated Fruite Stoke")
-        print("\t\t4) exit")
 
 #==========Add Fruit Stoke=======================
 dic={}
@@ -60,10 +59,10 @@ def update_fruit_stock():
 
     # Write the updated dictionary back to the file
     with open('fruit.txt', 'w') as file:
-            file.write(str(dic))
+            file.write(str(dic)
     print(f"\nUpdated dictionary:\n{dic}")
         
-'''
+
 while True:
         
 
@@ -82,5 +81,20 @@ while True:
         
     else:
         print("invalid")
+      
+     
+'''
+def update_fruit_stoke():
+        
+        print("============available Fruit Stoke============")
+        with open("fruit.txt","r") as data:
+                print(data.readline())
+                
+        Fruit_name = input("\nEnter New Fruit Name ")
+        n_quantity = int(input("\nEnter  New Fruit Quantity "))
+        n_price = int(input("\nEnter New Fruit Price"))
 
-'''    
+
+'''
+
+        
