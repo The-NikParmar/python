@@ -1,8 +1,8 @@
 def display():
     print("\t\tWelcome to Fruit Market Store")
     print("\n\t\t 1.View Available Fruits")
-    print("\n\t\t 2.Buy Fruits")
-    print("\n\t\t 3.exit")
+    print("\t\t 2.Buy Fruits")
+    print("\t\t 3.exit")
 
 
 def view_fruit():
