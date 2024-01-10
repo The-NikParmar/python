@@ -1,0 +1,10 @@
+
+		Vaccination Report
+==============================================
+Date:- 28-12-2023 Time:-16-07-02
+
+Name            :- nik
+Age             :- 21
+Contect Number  :- 9638062641
+vacine Name     :- corona
+vacine Doze     :- 2
