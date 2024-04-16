@@ -1,0 +1,9 @@
+
+		Vaccination Report
+==============================================
+ Date:- 28-12-2023 Time:-10-25-23
+Name is           :- mik
+Age is            :- 41
+Contect Number is :- 234567890
+vacine Name is    :- nik
+vacine Doze is    :- 2

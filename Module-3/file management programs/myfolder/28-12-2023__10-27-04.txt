@@ -1,0 +1,10 @@
+
+		Vaccination Report
+==============================================
+ Date:- 28-12-2023 Time:-10-27-04
+
+Name            :- mohit
+Age             :- 20
+Contect Number  :- 98765432
+vacine Name     :- xyz
+vacine Doze     :- 2

@@ -1,0 +1,11 @@
+
+		Vaccination Report
+==============================================
+Date:- 28-12-2023 Time:-10-39-46
+
+Name            :- nihit
+Age             :- 18
+Contect Number  :- 98765432
+vacine Name     :- quike
+vacine Doze     :- 2
+

@@ -9,6 +9,7 @@ menu = """
     press 2 for update student
     press 3 for delete student
     press 4 for display student
+    
 
 """
 
@@ -22,6 +23,7 @@ def addopration():
     args =(name,subject)
     query = "insert into student (name,subject) values ('%s','%s')"
 
+    mycursor.execute(query%args)
     mydb.commit()
     print("Successfully added !!")
      
@@ -50,6 +52,20 @@ def searchstudent():
     print(res[1])
     print(res[2])
 
+def deletion():
+    id = int(input("enter your student id : "))
+    query = "delete from student where id = %s"
+
+    args =(id)
+    mycursor.execute(query%args)
+    mydb.commit()
+def display():
+    mycursor.execute("select * from student")
+
+    res = mycursor.fetchall()
+    for x in res:
+        print(x)
+    mydb.commit()
 status = True
 
 while status:
@@ -60,9 +76,12 @@ while status:
     elif choice==2:
         updateopration()
     elif choice==3:
-        pass
+        deletion()
     elif choice==4:
+        display()
+    elif  choice==5:
         searchstudent()
+
 
 
     u_choice = input("do you want perfrom more opration press y for yes and press n for no")
