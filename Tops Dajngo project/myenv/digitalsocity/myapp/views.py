@@ -82,6 +82,7 @@ def profile(request):
         return render(request,"myapp/profile.html",context)
     else:
         return HttpResponsePermanentRedirect(reverse("login"))
+<<<<<<< HEAD
 
 
 def change_password(request):
@@ -146,3 +147,5 @@ def add_member(request):
 
 
         
+=======
+>>>>>>> f63bfb2bb64648de7493a22aeb84adea06032096

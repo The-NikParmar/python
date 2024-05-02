@@ -23,9 +23,12 @@ urlpatterns = [
     path('login/',views.login,name='login'),
     path('logout/',views.logout,name='logout'),
     path('profile/',views.profile,name='profile'),
+<<<<<<< HEAD
     path('change-password/',views.change_password,name='change-password'),
     path('change-profile/',views.change_profile,name='change-profile'),
     path('add-member/',views.add_member,name='add-member'),
+=======
+>>>>>>> f63bfb2bb64648de7493a22aeb84adea06032096
     
     
 ]

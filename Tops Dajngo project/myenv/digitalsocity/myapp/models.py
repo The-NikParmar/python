@@ -22,6 +22,7 @@ class Chairman(models.Model):
     def __str__(self):
         return self.firstname + " || " + self.blockno 
     
+<<<<<<< HEAD
 class Member(models.Model):
     userid = models.ForeignKey(User, on_delete = models.CASCADE)
     firstname = models.CharField(max_length = 20)
@@ -35,3 +36,7 @@ class Member(models.Model):
     vehical_details = models.CharField(max_length = 20)
     
     pic = models.FileField(upload_to="media/upload", default="pic-1.jpg")
+=======
+    
+  
+>>>>>>> f63bfb2bb64648de7493a22aeb84adea06032096
